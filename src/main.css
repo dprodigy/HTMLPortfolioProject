@@ -1,4 +1,4 @@
-body, header, h1, h2, div, h3, p, li {
+body, .header, h1, h2, div, h3, p, li {
  font-size: 100%;
  font: inherit;
  margin: 0;
@@ -12,7 +12,7 @@ body {
  z-index: 3;
 }
 
-header {
+.header {
  text-align: center;
  width: 100%;
  padding: 100px 0 100px 0;
@@ -22,13 +22,13 @@ header {
  text-shadow: 2px 2px 4px #000;
  z-index: 3;
 }
-header h1 {
+.header h1 {
  font-size: 72px;
  padding-bottom: 30px;
  filter: blur(0px);
  z-index: 3;
 }
-header h2 {
+.header h2 {
  font-size: 30px;
  filter: blur(0px);
  z-index: 3;
